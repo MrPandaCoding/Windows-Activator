@@ -3,9 +3,10 @@ from os import system
 import time
 import ctypes, sys
 
-x = "Windows Activator By: Noah W."
 
+x = "Windows Activator By: Noah W."
 system("title " + x)
+
 
 print("=====================================================""\n#Project: Activation of Windows Software products.\n""=====================================================\n")
 print("#Supported products:\n""- Windows 10 Home\n- Windows 10 Professional\n")
@@ -17,6 +18,7 @@ print("please wait...")
 time.sleep(0.5)
 print("=====================================================")
 time.sleep(0.8)
+
 
 def is_admin():
     try:
