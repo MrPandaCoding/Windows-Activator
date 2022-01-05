@@ -16,6 +16,7 @@ time.sleep(1.5)
 print("please wait...")
 time.sleep(0.5)
 print("=====================================================")
+time.sleep(0.8)
 
 def is_admin():
     try:
@@ -23,6 +24,7 @@ def is_admin():
     except:
         return False
 if is_admin():
+
     os.system('cmd /c "slmgr /ipk TX9XD-98N7V-6WMQ6-BX7FG-H8Q99"')
     os.system('cmd /c "slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX"')
     os.system('cmd /c "slmgr /skms s7.uk.to"')
