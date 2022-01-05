@@ -7,7 +7,6 @@ import ctypes, sys
 x = "Windows Activator By: Noah W."
 system("title " + x)
 
-print("hello")
 
 print("=====================================================""\n#Project: Activation of Windows Software products.\n""=====================================================\n")
 print("#Supported products:\n""- Windows 10 Home\n- Windows 10 Professional\n")
