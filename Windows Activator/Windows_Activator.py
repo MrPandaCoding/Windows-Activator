@@ -33,5 +33,6 @@ if is_admin():
     os.system('cmd /c "slmgr /skms s8.uk.to"')
     os.system('cmd /c "slmgr /skms s9.uk.to"')
     os.system('cmd /c "slmgr /ato"')
+    
 else:
     ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, " ".join(sys.argv), None, 1)
